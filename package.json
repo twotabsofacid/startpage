@@ -1,0 +1,28 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run css && npm run js",
+    "watch": "npm run build && parallelshell \"npm run watch:css\" \"npm run watch:js\"",
+    "css": "node-sass scss/screen.scss css/style.css --output-style compressed",
+    "watch:css": "onchange 'scss/*.scss' -- npm run css",
+    "js": "browserify js/app.js -o js/app.built.js",
+    "watch:js": "onchange 'js/app.js' -- npm run js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "browserify": "^16.2.3",
+    "node-sass": "^4.9.3",
+    "onchange": "^5.0.2",
+    "parallelshell": "^3.0.2",
+    "postcss-cli": "^6.0.0"
+  }
+}
