@@ -2,11 +2,11 @@
 
 const moment = require('moment');
 const colorArray = [
-	'#90A5C1',
-	'#F0DFA7',
-	'#B8B19E',
-	'#D56365',
-	'#748F63'
+	'#EB6896',
+	'#C36894',
+	'#836890',
+	'#46698D',
+	'#0F6A8B'
 ]
 
 class App {
