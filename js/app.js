@@ -11,11 +11,9 @@ const colorArray = [
 
 class App {
 	constructor() {
-		console.log('hello world');
 		this.container = document.getElementById('container');
 		this.date = document.getElementById('date');
 		this.time = document.getElementById('time');
-		this.update = this.update.bind(this);
 		this.setup();
 		this.update();
 		setInterval(() => {
