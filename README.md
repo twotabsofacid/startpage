@@ -6,7 +6,7 @@ For some reason Currently stopped working for me so I created this to use instea
 
 ## To use
 
-Clone the repo, `npm install`, `npm run build`, and then [follow the instructions here](https://superuser.com/a/909595). You'll need to have 'Hack' installed locally, or just change the font in `scss/_main.scss`.
+Clone the repo, `npm install`, `npm run build`, and then [follow the instructions here](https://superuser.com/a/909595). You'll need to have 'Hack' font installed locally, or just change the font in `scss/_main.scss`.
 
 ## Examples
 
