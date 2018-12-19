@@ -1,17 +1,16 @@
 'use strict';
 
 const moment = require('moment');
-const colorArray = [
-	'#EB6896',
-	'#C36894',
-	'#836890',
-	'#46698D',
-	'#0F6A8B'
-]
+const classArray = [
+	'pink',
+	'yellow',
+	'green',
+	'blue'
+];
 
 class App {
 	constructor() {
-		this.container = document.getElementById('container');
+		this.body = document.body;
 		this.date = document.getElementById('date');
 		this.time = document.getElementById('time');
 		this.setup();
@@ -21,7 +20,7 @@ class App {
 		}, 1000);
 	}
 	setup() {
-		this.container.style.backgroundColor = colorArray[Math.floor(Math.random() * colorArray.length)];
+		this.body.classList.add(`gradient-${classArray[Math.floor(Math.random() * classArray.length)]}`);
 	}
 	update() {
 		this.date.innerHTML = moment().format('MMMM Do YYYY');
