@@ -21,6 +21,7 @@ class App {
 		}, 1000);
 	}
 	setup() {
+		this.container.classList.add(`background-${Math.floor(Math.random() * 5)}`);
 		this.container.style.backgroundColor = colorArray[Math.floor(Math.random() * colorArray.length)];
 	}
 	update() {
