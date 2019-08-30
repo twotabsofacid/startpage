@@ -10,8 +10,6 @@ Clone the repo, `npm install`, `npm run build`, and then [follow the instruction
 
 ## Examples
 
-![screenshots/1.png](screenshots/1.png)
-
 ![screenshots/2.png](screenshots/2.png)
 
 ![screenshots/3.png](screenshots/3.png)
