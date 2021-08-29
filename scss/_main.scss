@@ -1,6 +1,7 @@
-$bleed: 160px;
+$bleed: 20px;
+
 body, html {
-	font-family: 'Hack', "Lucida Console", Monaco, monospace;
+	font-family: 'Druk Wide Bold', 'Hack', "Lucida Console", Monaco, monospace;
 	font-weight: bold;
 	color: #222;
 }
@@ -27,10 +28,10 @@ body, html {
 	.container-inner {
 		background-color: #fff;
 		position: fixed;
-		top: calc(160px/2);
-		left: calc(160px/2);
-		width: calc(100% - 160px);
-		height: calc(100% - 160px);
+		top: calc(#{$bleed}/2);
+		left: calc(#{$bleed}/2);
+		width: calc(100% - #{$bleed});
+		height: calc(100% - #{$bleed});
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -39,9 +40,9 @@ body, html {
 	}
 	.iframe {
 		margin-top: 30px;
-		width: 60%;
-		max-width: 600px;
-		height: 300px;
+		width: 80%;
+		max-width: 800px;
+		height: 400px;
 	}
 }
 .text {
