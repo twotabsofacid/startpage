@@ -20,7 +20,7 @@
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "browserify": "^16.2.3",
-    "node-sass": "^4.9.3",
+    "node-sass": "^7.0.0",
     "onchange": "^5.0.2",
     "parallelshell": "^3.0.2",
     "postcss-cli": "^6.0.0"
